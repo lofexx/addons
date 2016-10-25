@@ -197,7 +197,7 @@ namespace Kata_addon
 
 
                 //checks if spell = ready
-                if (!Q.IsReady())
+                if (Q.IsReady())
                 {
                     Q.Cast(target);
 
